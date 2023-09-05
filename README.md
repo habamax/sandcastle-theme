@@ -12,7 +12,7 @@ With Emacs 29.1+:
 (package-vc-install "https://github.com/habamax/sandcastle-theme")
 ```
 
-Or download `forget-me-not-theme.el` into your `custom-theme-directory`.
+Or download `sandcastle-theme.el` into your `custom-theme-directory`.
 
 ## Other themes
 
