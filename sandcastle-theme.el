@@ -687,11 +687,13 @@
 
    ;; diff
    `(diff-header
-     ((t (:foreground ,blue :weight bold))))
+     ((t (:background ,grey1 :foreground ,blue :weight bold))))
    `(diff-file-header
      ((t (:foreground ,black))))
    `(diff-hunk-header
      ((t (:foreground ,yellow :weight bold))))
+   `(diff-function
+     ((t (:foreground ,red :weight bold))))
    `(diff-added
      ((t (:background ,diff-added-bg :foreground ,diff-added-fg))))
    `(diff-indicator-added
