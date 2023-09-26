@@ -380,6 +380,8 @@
    ;; message
    `(message-header-name
      ((t (:foreground ,magenta))))
+   `(message-header-newsgroups
+     ((t (:foreground ,black :weight bold))))
    `(message-header-subject
      ((t (:foreground ,black :weight bold))))
    `(message-header-to
