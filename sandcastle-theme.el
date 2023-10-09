@@ -219,43 +219,43 @@
 
    ;; font-lock
    `(font-lock-string-face
-     ((t (:foreground ,green))))
+     ((t (:foreground ,green :weight unspecified :slant unspecified))))
    `(font-lock-comment-face
-     ((t (:foreground ,comment))))
+     ((t (:foreground ,comment :weight unspecified :slant unspecified))))
    `(font-lock-keyword-face
-     ((t (:foreground ,blue))))
+     ((t (:foreground ,blue :weight unspecified :slant unspecified))))
    `(font-lock-preprocessor-face
-     ((t (:foreground ,purple))))
+     ((t (:foreground ,purple :weight unspecified :slant unspecified))))
    `(font-lock-builtin-face
-     ((t (:foreground ,magenta))))
+     ((t (:foreground ,magenta :weight unspecified :slant unspecified))))
    `(font-lock-type-face
-     ((t (:foreground ,yellow))))
+     ((t (:foreground ,yellow :weight unspecified :slant unspecified))))
    `(font-lock-function-name-face
-     ((t (:foreground ,bright-magenta))))
+     ((t (:foreground ,bright-magenta :weight unspecified :slant unspecified))))
    `(font-lock-variable-name-face
-     ((t (:foreground ,bright-cyan))))
+     ((t (:foreground ,bright-cyan :weight unspecified :slant unspecified))))
    `(font-lock-constant-face
-     ((t (:foreground ,red))))
+     ((t (:foreground ,red :weight unspecified :slant unspecified))))
    `(font-lock-warning-face
-     ((t (:foreground ,bright-yellow :weight bold))))
+     ((t (:foreground ,bright-yellow :weight bold :slant unspecified))))
 
    `(font-lock-number-face
-     ((t (:foreground ,red))))
+     ((t (:foreground ,red :weight unspecified :slant unspecified))))
    `(font-lock-escape-face
-     ((t (:foreground ,yellow))))
+     ((t (:foreground ,yellow :weight unspecified :slant unspecified))))
    `(font-lock-function-call-face
-     ((t (:foreground ,magenta))))
+     ((t (:foreground ,magenta :weight unspecified :slant unspecified))))
    `(font-lock-regexp-face
-     ((t (:foreground ,bright-green))))
+     ((t (:foreground ,bright-green :weight unspecified :slant unspecified))))
    `(font-lock-delimiter-face
-     ((t (:foreground ,magenta))))
+     ((t (:foreground ,magenta :weight unspecified :slant unspecified))))
    `(font-lock-property-use-face
-     ((t (:foreground ,cyan))))
+     ((t (:foreground ,cyan :weight unspecified :slant unspecified))))
    `(font-lock-bracket-face
-     ((t (:foreground ,purple))))
+     ((t (:foreground ,purple :weight unspecified :slant unspecified))))
 
    `(elisp-shorthand-font-lock-face
-     ((t (:foreground ,bright-cyan :weight bold))))
+     ((t (:foreground ,bright-cyan :weight bold :slant unspecified))))
 
    ;; isearch
    `(isearch
