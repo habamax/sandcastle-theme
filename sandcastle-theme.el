@@ -257,6 +257,9 @@
    `(elisp-shorthand-font-lock-face
      ((t (:foreground ,bright-cyan :weight bold :slant unspecified))))
 
+   `(perl-non-scalar-variable
+     ((t (:inherit font-lock-variable-name-face))))
+
    ;; isearch
    `(isearch
      ((t (:background ,white :foreground ,bright-yellow :inverse-video t))))
