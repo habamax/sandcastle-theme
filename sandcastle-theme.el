@@ -1159,7 +1159,7 @@
 
    ;; embark
    `(embark-keybinding
-     ((t (:foreground ,bright-cyan :weight bold))))
+     ((t (:inherit help-key-binding))))
 
    ;; notmuch
    `(notmuch-message-summary-face
