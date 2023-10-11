@@ -701,7 +701,7 @@
    `(diff-header
      ((t (:background ,grey1 :foreground ,blue :weight bold))))
    `(diff-file-header
-     ((t (:foreground ,black))))
+     ((t (:background unspecified :foreground ,black))))
    `(diff-hunk-header
      ((t (:foreground ,yellow :weight bold))))
    `(diff-function
