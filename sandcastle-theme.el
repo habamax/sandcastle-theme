@@ -260,6 +260,13 @@
    `(perl-non-scalar-variable
      ((t (:inherit font-lock-variable-name-face))))
 
+   `(cperl-nonoverridable-face
+     ((t (:inherit default))))
+   `(cperl-hash-face
+     ((t (:inherit font-lock-variable-name-face))))
+   `(cperl-array-face
+     ((t (:inherit font-lock-variable-name-face))))
+
    ;; isearch
    `(isearch
      ((t (:background ,white :foreground ,bright-yellow :inverse-video t))))
