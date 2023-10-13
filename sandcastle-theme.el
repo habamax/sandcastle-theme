@@ -455,9 +455,9 @@
    `(org-block
      ((t (:background ,code-block :foreground ,fg :extend t))))
    `(org-block-begin-line
-     ((t (:background ,code-block :foreground ,darkgrey :extend t))))
+     ((t (:background unspecified :foreground ,darkgrey))))
    `(org-block-end-line
-     ((t (:background ,code-block :foreground ,darkgrey :extend t))))
+     ((t (:background unspecified :foreground ,darkgrey))))
    `(org-document-title
      ((t (:foreground ,black :weight bold))))
    `(org-document-info
