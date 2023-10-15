@@ -261,7 +261,7 @@
      ((t (:inherit font-lock-variable-name-face))))
 
    `(cperl-nonoverridable-face
-     ((t (:inherit default))))
+     ((t (:background unspecified :foreground unspecified))))
    `(cperl-hash-face
      ((t (:inherit font-lock-variable-name-face))))
    `(cperl-array-face
