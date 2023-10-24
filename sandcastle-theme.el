@@ -3,7 +3,7 @@
 ;; Author: Maxim Kim <habamax@gmail.com>
 ;; URL: https://github.com/habamax/sandcastle-theme
 ;; Package-Requires: ((emacs "24.1"))
-;; Package-Version: 0.1
+;; Package-Version: 0.7
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -62,6 +62,12 @@
        (outline-6 "#af875f")
        (outline-7 "#005f87")
        (outline-8 darkgrey)
+       (hi-yellow "#ffffd7")
+       (hi-pink "#ffafd7")
+       (hi-blue "#afd7ff")
+       (hi-green "#d7ffd7")
+       (hi-salmon "#ffd7af")
+       (hi-aquamarine "#d7ffff")
        (code-block "#e0dfd9"))
 
   (custom-theme-set-faces
@@ -267,7 +273,7 @@
    `(cperl-array-face
      ((t (:inherit font-lock-variable-name-face))))
 
-   ;; isearch
+   ;; isearch & search
    `(isearch
      ((t (:background ,white :foreground ,bright-yellow :inverse-video t))))
    `(isearch-group-1
@@ -278,6 +284,24 @@
      ((t (:background ,white :foreground ,green :inverse-video t))))
    `(isearch-fail
      ((t (:background ,diff-removed-bg :foreground ,diff-removed-fg))))
+   `(hi-yellow
+     ((t (:background ,hi-yellow :foreground unspecified :inverse-video nil))))
+   `(hi-pink
+     ((t (:background ,hi-pink :foreground unspecified :inverse-video nil))))
+   `(hi-blue
+     ((t (:background ,hi-blue :foreground unspecified :inverse-video nil))))
+   `(hi-green
+     ((t (:background ,hi-green :foreground unspecified :inverse-video nil))))
+   `(hi-salmon
+     ((t (:background ,hi-salmon :foreground unspecified :inverse-video nil))))
+   `(hi-aquamarine
+     ((t (:background ,hi-aquamarine :foreground unspecified :inverse-video nil))))
+   `(hi-red-b
+     ((t (:background unspecified :foreground ,red :weight bold))))
+   `(hi-green-b
+     ((t (:background unspecified :foreground ,green :weight bold))))
+   `(hi-blue-b
+     ((t (:background unspecified :foreground ,blue :weight bold))))
 
    ;; replace.el
    `(match
