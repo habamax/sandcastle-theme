@@ -1115,7 +1115,7 @@
 
    ;; eww
    `(eww-form-text
-     ((t (:inherit widget-field :box (:foreground ,grey)))))
+     ((t (:inherit widget-field :box (:color ,grey)))))
    `(eww-form-textarea
      ((t (:inherit widget-field))))
    `(eww-form-submit
